@@ -11,9 +11,15 @@ function AppFuncional(){
 }
 
 class App extends React.Component{
+
+  state = {
+    name:'Renan moura'
+  }
+
+
   render(){
     return(
-      <h1>what are you doing!</h1>
+    <h1>What is your name?{this.state.name}</h1>
     )
   }
 }
